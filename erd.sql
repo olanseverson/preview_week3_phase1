@@ -100,7 +100,7 @@ SELECT b.title, b.book_type, b.price, a.name as "author name"
 from books as b
 join authors as a
 on b.authorID = a.authorID
-WHERE a.name= 'J.K. Rowling'
+WHERE a.name= 'J.K. Rowling';
 
 -- query2
 WITH jt as (
